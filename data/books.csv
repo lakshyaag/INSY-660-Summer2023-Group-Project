@@ -1,0 +1,51 @@
+bookID,title,author,genre,price,quantityInStock
+1,The Great Gatsby,F. Scott Fitzgerald,Fiction,10.99,20
+2,To Kill a Mockingbird,Harper Lee,Fiction,7.99,15
+3,1984,George Orwell,Sci-Fi,8.99,30
+4,The Catcher in the Rye,J.D. Salinger,Fiction,6.99,10
+5,Pride and Prejudice,Jane Austen,Romance,9.99,25
+6,Moby-Dick,Herman Melville,Adventure,11.99,5
+7,War and Peace,Leo Tolstoy,Historical,12.99,12
+8,The Hobbit,J.R.R. Tolkien,Fantasy,10.99,18
+9,Ulysses,James Joyce,Modernist,13.99,7
+10,The Odyssey,Homer,Epic,14.99,9
+11,The Iliad,Homer,Epic,14.99,8
+12,Don Quixote,Miguel de Cervantes,Adventure,11.99,6
+13,The Divine Comedy,Dante Alighieri,Epic,13.99,7
+14,The Brothers Karamazov,Fyodor Dostoevsky,Philosophical,12.99,12
+15,Anna Karenina,Leo Tolstoy,Realistic Fiction,10.99,18
+16,The Adventures of Huckleberry Finn,Mark Twain,Adventure,9.99,25
+17,The Lord of the Rings,J.R.R. Tolkien,Fantasy,15.99,30
+18,The Count of Monte Cristo,Alexandre Dumas,Adventure,10.99,20
+19,One Hundred Years of Solitude,Gabriel García Márquez,Magical Realism,11.99,15
+20,The Picture of Dorian Gray,Oscar Wilde,Philosophical,8.99,10
+21,The Scarlet Letter,Nathaniel Hawthorne,Historical,9.99,12
+22,The Grapes of Wrath,John Steinbeck,Historical,10.99,15
+23,The Old Man and the Sea,Ernest Hemingway,Adventure,8.99,20
+24,The Metamorphosis,Franz Kafka,Philosophical,7.99,25
+25,The Trial,Franz Kafka,Philosophical,9.99,30
+26,The Stranger,Albert Camus,Philosophical,10.99,35
+27,The Plague,Albert Camus,Philosophical,11.99,40
+28,The Fall,Albert Camus,Philosophical,12.99,45
+29,The Rebel,Albert Camus,Philosophical,13.99,50
+30,The Myth of Sisyphus,Albert Camus,Philosophical,14.99,55
+31,The Sun Also Rises,Ernest Hemingway,Adventure,9.99,60
+32,A Farewell to Arms,Ernest Hemingway,Adventure,10.99,65
+33,For Whom the Bell Tolls,Ernest Hemingway,Adventure,11.99,70
+34,The Old Man and the Sea,Ernest Hemingway,Adventure,12.99,75
+35,To Have and Have Not,Ernest Hemingway,Adventure,13.99,80
+36,The Snows of Kilimanjaro,Ernest Hemingway,Adventure,14.99,85
+37,The Short Happy Life of Francis Macomber,Ernest Hemingway,Adventure,9.99,90
+38,The Killers,Ernest Hemingway,Adventure,10.99,95
+39,Hills Like White Elephants,Ernest Hemingway,Adventure,11.99,100
+40,The Undefeated,Ernest Hemingway,Adventure,12.99,105
+41,In Another Country,Ernest Hemingway,Adventure,13.99,110
+42,The End of Something,Ernest Hemingway,Adventure,14.99,115
+43,The Three-Day Blow,Ernest Hemingway,Adventure,9.99,120
+44,The Battler,Ernest Hemingway,Adventure,10.99,125
+45,The Big Two-Hearted River,Ernest Hemingway,Adventure,11.99,130
+46,The Light of the World,Ernest Hemingway,Adventure,12.99,135
+47,"God Rest You Merry, Gentlemen",Ernest Hemingway,Adventure,13.99,140
+48,The Sea Change,Ernest Hemingway,Adventure,14.99,145
+49,"A Clean, Well-Lighted Place",Ernest Hemingway,Adventure,9.99,150
+50,The Capital of the World,Ernest Hemingway,Adventure,10.99,155
