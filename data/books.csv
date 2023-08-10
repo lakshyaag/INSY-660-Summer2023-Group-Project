@@ -1,51 +1,51 @@
-bookID,title,author,genre,price,quantityInStock
-1,The Great Gatsby,F. Scott Fitzgerald,Fiction,10.99,20
-2,To Kill a Mockingbird,Harper Lee,Fiction,7.99,15
-3,1984,George Orwell,Sci-Fi,8.99,30
-4,The Catcher in the Rye,J.D. Salinger,Fiction,6.99,10
-5,Pride and Prejudice,Jane Austen,Romance,9.99,25
-6,Moby-Dick,Herman Melville,Adventure,11.99,5
-7,War and Peace,Leo Tolstoy,Historical,12.99,12
-8,The Hobbit,J.R.R. Tolkien,Fantasy,10.99,18
-9,Ulysses,James Joyce,Modernist,13.99,7
-10,The Odyssey,Homer,Epic,14.99,9
-11,The Iliad,Homer,Epic,14.99,8
-12,Don Quixote,Miguel de Cervantes,Adventure,11.99,6
-13,The Divine Comedy,Dante Alighieri,Epic,13.99,7
-14,The Brothers Karamazov,Fyodor Dostoevsky,Philosophical,12.99,12
-15,Anna Karenina,Leo Tolstoy,Realistic Fiction,10.99,18
-16,The Adventures of Huckleberry Finn,Mark Twain,Adventure,9.99,25
-17,The Lord of the Rings,J.R.R. Tolkien,Fantasy,15.99,30
-18,The Count of Monte Cristo,Alexandre Dumas,Adventure,10.99,20
-19,One Hundred Years of Solitude,Gabriel García Márquez,Magical Realism,11.99,15
-20,The Picture of Dorian Gray,Oscar Wilde,Philosophical,8.99,10
-21,The Scarlet Letter,Nathaniel Hawthorne,Historical,9.99,12
-22,The Grapes of Wrath,John Steinbeck,Historical,10.99,15
-23,The Old Man and the Sea,Ernest Hemingway,Adventure,8.99,20
-24,The Metamorphosis,Franz Kafka,Philosophical,7.99,25
-25,The Trial,Franz Kafka,Philosophical,9.99,30
-26,The Stranger,Albert Camus,Philosophical,10.99,35
-27,The Plague,Albert Camus,Philosophical,11.99,40
-28,The Fall,Albert Camus,Philosophical,12.99,45
-29,The Rebel,Albert Camus,Philosophical,13.99,50
-30,The Myth of Sisyphus,Albert Camus,Philosophical,14.99,55
-31,The Sun Also Rises,Ernest Hemingway,Adventure,9.99,60
-32,A Farewell to Arms,Ernest Hemingway,Adventure,10.99,65
-33,For Whom the Bell Tolls,Ernest Hemingway,Adventure,11.99,70
-34,The Old Man and the Sea,Ernest Hemingway,Adventure,12.99,75
-35,To Have and Have Not,Ernest Hemingway,Adventure,13.99,80
-36,The Snows of Kilimanjaro,Ernest Hemingway,Adventure,14.99,85
-37,The Short Happy Life of Francis Macomber,Ernest Hemingway,Adventure,9.99,90
-38,The Killers,Ernest Hemingway,Adventure,10.99,95
-39,Hills Like White Elephants,Ernest Hemingway,Adventure,11.99,100
-40,The Undefeated,Ernest Hemingway,Adventure,12.99,105
-41,In Another Country,Ernest Hemingway,Adventure,13.99,110
-42,The End of Something,Ernest Hemingway,Adventure,14.99,115
-43,The Three-Day Blow,Ernest Hemingway,Adventure,9.99,120
-44,The Battler,Ernest Hemingway,Adventure,10.99,125
-45,The Big Two-Hearted River,Ernest Hemingway,Adventure,11.99,130
-46,The Light of the World,Ernest Hemingway,Adventure,12.99,135
-47,"God Rest You Merry, Gentlemen",Ernest Hemingway,Adventure,13.99,140
-48,The Sea Change,Ernest Hemingway,Adventure,14.99,145
-49,"A Clean, Well-Lighted Place",Ernest Hemingway,Adventure,9.99,150
-50,The Capital of the World,Ernest Hemingway,Adventure,10.99,155
+bookID,title,author,genre,price,quantityInStock,short_description,publisher
+1,The Great Gatsby,F. Scott Fitzgerald,Fiction,10.99,20,Classic novel about the American Dream,Scribner
+2,To Kill a Mockingbird,Harper Lee,Fiction,7.99,15,A timeless tale of racial injustice,HarperCollins
+3,1984,George Orwell,Sci-Fi,8.99,30,Dystopian vision of a totalitarian future,Penguin Books
+4,The Catcher in the Rye,J.D. Salinger,Fiction,6.99,10,A coming-of-age story of a teenage boy,"Little, Brown and Company"
+5,Pride and Prejudice,Jane Austen,Romance,9.99,25,"A story of love, class, and social norms",Penguin Classics
+6,Moby-Dick,Herman Melville,Adventure,11.99,5,Epic adventure of a man and a whale,Harper & Brothers
+7,War and Peace,Leo Tolstoy,Historical,12.99,12,Historical saga set against the backdrop of war,Wordsworth Editions
+8,The Hobbit,J.R.R. Tolkien,Fantasy,10.99,18,Enchanting journey in a fantasy world,Houghton Mifflin
+9,Ulysses,James Joyce,Modernist,13.99,7,Complex modernist masterpiece,Sylvia Beach Editions
+10,The Odyssey,Homer,Epic,14.99,9,Ancient Greek epic of Odysseus's journey,Penguin Classics
+11,The Iliad,Homer,Epic,14.99,8,Homer's epic poem of the Trojan War,Penguin Classics
+12,Don Quixote,Miguel de Cervantes,Adventure,11.99,6,Misadventures of a delusional knight,Harper & Brothers
+13,The Divine Comedy,Dante Alighieri,Epic,13.99,7,Allegorical journey through the afterlife,Penguin Classics
+14,The Brothers Karamazov,Fyodor Dostoevsky,Philosophical,12.99,12,"Exploration of faith, doubt, and morality","Farrar, Straus and Giroux"
+15,Anna Karenina,Leo Tolstoy,Realistic Fiction,10.99,18,A tragic love story in 19th century Russia,Penguin Classics
+16,The Adventures of Huckleberry Finn,Mark Twain,Adventure,9.99,25,A river journey of freedom and friendship,Chatto & Windus
+17,The Lord of the Rings,J.R.R. Tolkien,Fantasy,15.99,30,Epic fantasy quest to destroy the One Ring,Allen & Unwin
+18,The Count of Monte Cristo,Alexandre Dumas,Adventure,10.99,20,"Tale of betrayal, revenge, and redemption",Penguin Classics
+19,One Hundred Years of Solitude,Gabriel García Márquez,Magical Realism,11.99,15,Multigenerational tale in a magical world,Harper & Row
+20,The Picture of Dorian Gray,Oscar Wilde,Philosophical,8.99,10,"Portrait of vanity, morality, and corruption",Lippincott's Monthly Magazine
+21,The Scarlet Letter,Nathaniel Hawthorne,Historical,9.99,12,Puritan society's impact on an adulteress,"Ticknor, Reed & Fields"
+22,The Grapes of Wrath,John Steinbeck,Historical,10.99,15,Depiction of the Great Depression's hardships,The Viking Press
+23,The Old Man and the Sea,Ernest Hemingway,Adventure,8.99,20,A simple yet profound story of an old fisherman,Charles Scribner's Sons
+24,The Metamorphosis,Franz Kafka,Philosophical,7.99,25,A man's transformation into an insect,Kurt Wolff Verlag
+25,The Trial,Franz Kafka,Philosophical,9.99,30,Trial of a man caught in an absurd legal system,Schocken Books
+26,The Stranger,Albert Camus,Philosophical,10.99,35,Exploration of existential alienation,Éditions Gallimard
+27,The Plague,Albert Camus,Philosophical,11.99,40,A town's struggle with a deadly epidemic,Hamish Hamilton
+28,The Fall,Albert Camus,Philosophical,12.99,45,Inner monologue on guilt and morality,Alfred A. Knopf
+29,The Rebel,Albert Camus,Philosophical,13.99,50,Philosophical analysis of rebellion,Vintage Books
+30,The Myth of Sisyphus,Albert Camus,Philosophical,14.99,55,Existential essay on the absurdity of life,Gallimard
+31,The Sun Also Rises,Ernest Hemingway,Adventure,9.99,60,Expatriates' experiences in post-WWI Europe,Scribner's
+32,A Farewell to Arms,Ernest Hemingway,Adventure,10.99,65,Love and war during World War I,Charles Scribner's Sons
+33,For Whom the Bell Tolls,Ernest Hemingway,Adventure,11.99,70,An American's involvement in the Spanish Civil War,Charles Scribner's Sons
+34,The Old Man and the Sea,Ernest Hemingway,Adventure,12.99,75,A relentless battle between an old man and a marlin,Charles Scribner's Sons
+35,To Have and Have Not,Ernest Hemingway,Adventure,13.99,80,Hemingway's only full-length novel set in the US,Charles Scribner's Sons
+36,The Snows of Kilimanjaro,Ernest Hemingway,Adventure,14.99,85,Short stories reflecting on life and death,Charles Scribner's Sons
+37,The Short Happy Life of Francis Macomber,Ernest Hemingway,Adventure,9.99,90,Hunting trip's tragic turn for an American couple,Scribner's Magazine
+38,The Killers,Ernest Hemingway,Adventure,10.99,95,Two hitmen and their unexpected encounter,Scribner's Magazine
+39,Hills Like White Elephants,Ernest Hemingway,Adventure,11.99,100,A couple's poignant conversation on a train,Grafton
+40,The Undefeated,Ernest Hemingway,Adventure,12.99,105,Courageous bullfighting portrayal,Scribner's Magazine
+41,In Another Country,Ernest Hemingway,Adventure,13.99,110,A breakup's emotional aftermath,Paris Editions
+42,The End of Something,Ernest Hemingway,Adventure,14.99,115,Friends' reflections on a broken relationship,Paris Editions
+43,The Three-Day Blow,Ernest Hemingway,Adventure,9.99,120,A weekend of drinking and introspection,Paris Editions
+44,The Battler,Ernest Hemingway,Adventure,10.99,125,A former boxer's encounter with a famous author,Paris Editions
+45,The Big Two-Hearted River,Ernest Hemingway,Adventure,11.99,130,A man's rejuvenating camping trip,Paris Editions
+46,The Light of the World,Ernest Hemingway,Adventure,12.99,135,A boxer's challenging fight in the ring,Paris Editions
+47,"God Rest You Merry, Gentlemen",Ernest Hemingway,Adventure,13.99,140,A bullfighter's tale of redemption,Paris Editions
+48,The Sea Change,Ernest Hemingway,Adventure,14.99,145,A sea captain's transformation,Paris Editions
+49,"A Clean, Well-Lighted Place",Ernest Hemingway,Adventure,9.99,150,Existential musings in a café,Paris Editions
+50,The Capital of the World,Ernest Hemingway,Adventure,10.99,155,An emotional tale of a father and son,Paris Editions
