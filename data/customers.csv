@@ -1,11 +1,21 @@
-customerID,firstName,lastName,email,phone
-1001,John,Doe,johndoe@example.com,123-456-7890
-1002,Jane,Smith,janesmith@example.com,234-567-8901
-1003,James,Brown,jamesbrown@example.com,345-678-9012
-1004,Emily,Johnson,emilyjohnson@example.com,456-789-0123
-1005,Michael,Williams,michaelwilliams@example.com,567-890-1234
-1006,Elizabeth,Taylor,elizabethtaylor@example.com,678-901-2345
-1007,David,Jones,davidjones@example.com,789-012-3456
-1008,Jennifer,Miller,jennifermiller@example.com,890-123-4567
-1009,Robert,Davis,robertdavis@example.com,901-234-5678
-1010,Linda,Garcia,lindagarcia@example.com,012-345-6789
+customerID,firstName,lastName,email,phone,address
+1001,John,Doe,johndoe@example.com,123-456-7890,123 Main St, Cityville, ABC123
+1002,Jane,Smith,janesmith@example.com,234-567-8901,456 Elm St, Townsville, DEF456
+1003,James,Brown,jamesbrown@example.com,345-678-9012,789 Oak St, Villagetown, GHI789
+1004,Emily,Johnson,emilyjohnson@example.com,456-789-0123,101 Maple Ave, Countryside, JKL012
+1005,Michael,Williams,michaelwilliams@example.com,567-890-1234,202 Pine Rd, Hamletville, MNO345
+1006,Elizabeth,Taylor,elizabethtaylor@example.com,678-901-2345,303 Cedar Ln, Suburbia, PQR678
+1007,David,Jones,davidjones@example.com,789-012-3456,404 Birch Blvd, Townville, STU901
+1008,Jennifer,Miller,jennifermiller@example.com,890-123-4567,505 Walnut Cres, Urbanville, VWX123
+1009,Robert,Davis,robertdavis@example.com,901-234-5678,606 Spruce Ct, Metroville, YZA234
+1010,Linda,Garcia,lindagarcia@example.com,012-345-6789,707 Oak Lane, Cityburg, BCD345
+1011,William,Smith,williamsmith@example.com,123-456-7890,808 Elm St, Townsville, EFG456
+1012,Susan,Johnson,susanjohnson@example.com,234-567-8901,909 Oak St, Villagetown, HIJ567
+1013,Charles,Williams,charleswilliams@example.com,345-678-9012,1011 Maple Ave, Countryside, KLM678
+1014,Amanda,Jones,amandajones@example.com,456-789-0123,1112 Pine Rd, Hamletville, NOP789
+1015,Thomas,Brown,thomasbrown@example.com,567-890-1234,1213 Cedar Ln, Suburbia, QRS890
+1016,Sarah,Davis,sarahdavis@example.com,678-901-2345,1314 Birch Blvd, Townville, TUV901
+1017,Michael,Miller,michaelmiller@example.com,789-012-3456,1415 Walnut Cres, Urbanville, UVW012
+1018,Michelle,Garcia,michellegarcia@example.com,890-123-4567,1516 Spruce Ct, Metroville, WXY123
+1019,James,Anderson,jamesanderson@example.com,901-234-5678,1617 Oak Lane, Cityburg, XYZ234
+1020,Patricia,Moore,patriciamoore@example.com,012-345-6789,1718 Maple St, Countryside, YZA345
