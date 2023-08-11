@@ -18,3 +18,6 @@ This measures the angle between the two documents in a normalized space. The clo
 
 
 
+## Scenario 5
+
+In this scenario, we have added the functionality of sentiment analysis using the TextBlob library. We are storing the customer's feedback into a dataframe and then performing the sentiment analysis to classify the feedbakc based on the sentiment and storing the result in the same dataframe for further analysis.
