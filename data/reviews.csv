@@ -1,0 +1,11 @@
+reviewID,customerID,orderID,reviewRating,reviewText,reviewDate
+1,1001,1,5,"Great book, really enjoyed it!",2023-01-01
+2,1002,2,4,"Interesting read, a bit slow in the middle.",2023-01-02
+3,1003,3,3,"Not my favorite from this author.",2023-01-03
+4,1004,4,5,"Loved it! Can't wait for the sequel.",2023-01-04
+5,1005,5,4,"Good book, but the ending was predictable.",2023-01-05
+6,1006,6,2,"Didn't really like it, the characters were flat.",2023-01-06
+7,1007,7,5,"Amazing book, couldn't put it down!",2023-01-07
+8,1008,8,3,"It was okay, but I've read better.",2023-01-08
+9,1009,9,4,"Really liked it, but the start was a bit slow.",2023-01-09
+10,1010,10,5,"One of the best books I've read this year!",2023-01-10
