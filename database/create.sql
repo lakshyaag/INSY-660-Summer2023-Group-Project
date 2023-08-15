@@ -15,8 +15,8 @@ CREATE TABLE IF NOT EXISTS customers (
     firstName VARCHAR(255) NOT NULL,
     lastName VARCHAR(255) NOT NULL,
     email VARCHAR(255),
-    address VARCHAR(255),
-    phone VARCHAR(255)
+    phone VARCHAR(255),
+    address VARCHAR(255)
 );
 -- @block create orders table
 CREATE TABLE IF NOT EXISTS orders (
