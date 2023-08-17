@@ -1,0 +1,7 @@
+numpy==1.25.0
+pandas==2.0.2
+PyMySQL==1.1.0
+SQLAlchemy==2.0.19
+textblob==0.17.1
+nltk==3.8.1
+scikit-learn==1.2.2
