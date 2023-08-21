@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>INSY 660 Group Project</title>
+        <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="insy-660-group-project">INSY 660 Group Project</h1>
+<p>This repo contains the code for a chatbot for an online book retailer. More details can be found in the project proposal.</p>
+<h2 id="team-members">Team members</h2>
+<ol>
+<li>Hao Duong</li>
+<li>Om Sangwan</li>
+<li>Lakshya Agarwal</li>
+</ol>
+<h2 id="how-to-run">How to run</h2>
+<ol>
+<li>
+<p>Ensure the database is populated and running locally. The database is a MySQL database.</p>
+</li>
+<li>
+<p>To import the database, import the <code>argo_bookstore_insy660.sql</code> file into MySQL. The database is populated with sample data.</p>
+</li>
+<li>
+<p>Change the <code>db_connection_str</code> variable to the connection details for your database. For example:</p>
+<pre><code class="language-python">db_connection_str = <span class="hljs-string">&quot;mysql+pymysql://root:root@localhost:3306/argo_bookstore_insy660&quot;</span>
+</code></pre>
+<p>Ensure that the port number, username, password, and database name correspond to your database.</p>
+</li>
+<li>
+<p>With the database running, run the <code>INSY660_Argo Bookstore Chatbot_Code_Group 4.ipynb</code> file to use the chatbot.</p>
+</li>
+</ol>
+<h2 id="schema">Schema</h2>
+<p><img src="file:///e:\McGill MMA\Notes\Assignments\Summer 2023\INSY 660\ERD.png" alt="Database schema" title="Database schema"></p>
+
+        
+        
+    </body>
+    </html>

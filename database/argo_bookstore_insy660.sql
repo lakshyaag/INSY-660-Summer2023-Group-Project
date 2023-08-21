@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Aug 16, 2023 at 09:23 PM
+-- Generation Time: Aug 21, 2023 at 03:27 AM
 -- Server version: 5.7.24
 -- PHP Version: 8.0.1
 
@@ -43,10 +43,10 @@ CREATE TABLE `books` (
 --
 
 INSERT INTO `books` (`bookID`, `title`, `author`, `genre`, `price`, `quantityInStock`, `short_description`, `publisher`) VALUES
-(1, 'The Great Gatsby', 'F. Scott Fitzgerald', 'Fiction', '10.99', 20, 'Classic novel about the American Dream', 'Scribner'),
-(2, 'To Kill a Mockingbird', 'Harper Lee', 'Fiction', '7.99', 15, 'A timeless tale of racial injustice', 'HarperCollins'),
+(1, 'The Great Gatsby', 'F. Scott Fitzgerald', 'Fiction', '10.99', 19, 'Classic novel about the American Dream', 'Scribner'),
+(2, 'To Kill a Mockingbird', 'Harper Lee', 'Fiction', '7.99', 12, 'A timeless tale of racial injustice', 'HarperCollins'),
 (3, '1984', 'George Orwell', 'Sci-Fi', '8.99', 30, 'Dystopian vision of a totalitarian future', 'Penguin Books'),
-(4, 'The Catcher in the Rye', 'J.D. Salinger', 'Fiction', '6.99', 10, 'A coming-of-age story of a teenage boy', 'Little, Brown and Company'),
+(4, 'The Catcher in the Rye', 'J.D. Salinger', 'Fiction', '6.99', 9, 'A coming-of-age story of a teenage boy', 'Little, Brown and Company'),
 (5, 'Pride and Prejudice', 'Jane Austen', 'Romance', '9.99', 25, 'A story of love, class, and social norms', 'Penguin Classics'),
 (6, 'Moby-Dick', 'Herman Melville', 'Adventure', '11.99', 5, 'Epic adventure of a man and a whale', 'Harper & Brothers'),
 (7, 'War and Peace', 'Leo Tolstoy', 'Historical', '12.99', 12, 'Historical saga set against the backdrop of war', 'Wordsworth Editions'),
@@ -74,7 +74,7 @@ INSERT INTO `books` (`bookID`, `title`, `author`, `genre`, `price`, `quantityInS
 (29, 'The Rebel', 'Albert Camus', 'Philosophical', '13.99', 50, 'Philosophical analysis of rebellion', 'Vintage Books'),
 (30, 'The Myth of Sisyphus', 'Albert Camus', 'Philosophical', '14.99', 55, 'Existential essay on the absurdity of life', 'Gallimard'),
 (31, 'The Sun Also Rises', 'Ernest Hemingway', 'Adventure', '9.99', 60, 'Expatriates\' experiences in post-WWI Europe', 'Scribner\'s'),
-(32, 'A Farewell to Arms', 'Ernest Hemingway', 'Adventure', '10.99', 65, 'Love and war during World War I', 'Charles Scribner\'s Sons'),
+(32, 'A Farewell to Arms', 'Ernest Hemingway', 'Adventure', '10.99', 64, 'Love and war during World War I', 'Charles Scribner\'s Sons'),
 (33, 'For Whom the Bell Tolls', 'Ernest Hemingway', 'Adventure', '11.99', 70, 'An American\'s involvement in the Spanish Civil War', 'Charles Scribner\'s Sons'),
 (34, 'The Old Man and the Sea', 'Ernest Hemingway', 'Adventure', '12.99', 75, 'A relentless battle between an old man and a marlin', 'Charles Scribner\'s Sons'),
 (35, 'To Have and Have Not', 'Ernest Hemingway', 'Adventure', '13.99', 80, 'Hemingway\'s only full-length novel set in the US', 'Charles Scribner\'s Sons'),
@@ -92,7 +92,14 @@ INSERT INTO `books` (`bookID`, `title`, `author`, `genre`, `price`, `quantityInS
 (47, 'God Rest You Merry, Gentlemen', 'Ernest Hemingway', 'Adventure', '13.99', 140, 'A bullfighter\'s tale of redemption', 'Paris Editions'),
 (48, 'The Sea Change', 'Ernest Hemingway', 'Adventure', '14.99', 145, 'A sea captain\'s transformation', 'Paris Editions'),
 (49, 'A Clean, Well-Lighted Place', 'Ernest Hemingway', 'Adventure', '9.99', 150, 'Existential musings in a café', 'Paris Editions'),
-(50, 'The Capital of the World', 'Ernest Hemingway', 'Adventure', '10.99', 155, 'An emotional tale of a father and son', 'Paris Editions');
+(50, 'The Capital of the World', 'Ernest Hemingway', 'Adventure', '10.99', 155, 'An emotional tale of a father and son', 'Paris Editions'),
+(51, 'Harry Potter and the Philosopher\'s Stone', 'J.K. Rowling', 'Fantasy', '8.99', 100, 'A young wizard discovers his magical heritage', 'Bloomsbury Publishing'),
+(52, 'Harry Potter and the Chamber of Secrets', 'J.K. Rowling', 'Fantasy', '9.99', 99, 'Harry returns to Hogwarts and uncovers a dark secret', 'Bloomsbury Publishing'),
+(53, 'Harry Potter and the Prisoner of Azkaban', 'J.K. Rowling', 'Fantasy', '9.99', 100, 'Harry learns more about his past and faces a dangerous escapee', 'Bloomsbury Publishing'),
+(54, 'Harry Potter and the Goblet of Fire', 'J.K. Rowling', 'Fantasy', '10.99', 100, 'Harry participates in a dangerous tournament between rival schools of magic', 'Bloomsbury Publishing'),
+(55, 'Harry Potter and the Order of Phoenix', 'J.K. Rowling', 'Fantasy', '11.99', 100, 'Harry starts an illegal student group to fight against the returned Dark Lord', 'Bloomsbury Publishing'),
+(56, 'Harry Potter and the Half-Blood Prince', 'J.K. Rowling', 'Fantasy', '12.99', 100, 'Harry goes through a journey of past revelations that will shape the final battle', 'Bloomsbury Publishing'),
+(57, 'Harry Potter and the Deathly Hallows', 'J.K. Rowling', 'Fantasy', '13.99', 100, 'Harry makes a final stand against the Dark Lord', 'Bloomsbury Publishing');
 
 -- --------------------------------------------------------
 
@@ -134,7 +141,10 @@ INSERT INTO `customers` (`customerID`, `firstName`, `lastName`, `email`, `phone`
 (1018, 'Michelle', 'Garcia', 'michellegarcia@example.com', '890-123-4567', '1516 Spruce Ct, Metroville, WXY123'),
 (1019, 'James', 'Anderson', 'jamesanderson@example.com', '901-234-5678', '1617 Oak Lane, Cityburg, XYZ234'),
 (1020, 'Patricia', 'Moore', 'patriciamoore@example.com', '012-345-6789', '1718 Maple St, Countryside, YZA345'),
-(1021, 'Lakshya', 'Agarwal', 'lakshyaag@icloud.com', '5142586712', '1430 Rue City Councillors, Montreal, QC');
+(1021, 'Lakshya', 'Agarwal', 'lakshyaag@icloud.com', '5142586712', '1430 Rue City Councillors, Montreal, QC'),
+(1022, 'Abdul', 'Aroworamimo', '', '5125456123', 'Griffintown'),
+(1023, 'Lakshya', 'Agarwal', '', '5894985', ''),
+(1024, 'Lakshya', 'Agarwal', 'lakshyaag@icloud.com', '4857632', '');
 
 -- --------------------------------------------------------
 
@@ -171,11 +181,18 @@ INSERT INTO `orders` (`orderID`, `customerID`, `bookID`, `orderDate`, `pickupDat
 (13, 1017, 38, '2023-08-22', '2023-08-27', 'Reserved'),
 (14, 1018, 11, '2023-08-23', '2023-08-28', 'In Transit'),
 (15, 1013, 2, '2023-08-24', '2023-08-29', 'In Transit'),
-(16, 1005, 29, '2023-08-25', '2023-08-30', 'Reserved'),
+(16, 1005, 29, '2023-08-25', '2023-08-24', 'Reserved'),
 (17, 1002, 40, '2023-08-26', '2023-08-31', 'Completed'),
 (18, 1014, 12, '2023-08-27', '2023-09-01', 'In Transit'),
 (19, 1020, 9, '2023-08-28', '2023-09-02', 'In Transit'),
-(20, 1010, 21, '2023-08-29', '2023-09-03', 'Completed');
+(20, 1010, 21, '2023-08-29', '2023-09-03', 'Completed'),
+(21, 1022, 1, '2023-08-17', '2023-08-19', 'Reserved'),
+(22, 1022, 2, '2023-08-17', '2023-08-19', 'Reserved'),
+(23, 1005, 2, '2023-08-17', '2023-09-04', 'Reserved'),
+(24, 1005, 4, '2023-08-17', '2023-08-19', 'Reserved'),
+(25, 1004, 2, '2023-08-17', '2023-08-19', 'Reserved'),
+(26, 1005, 32, '2023-08-18', '2023-08-20', 'Reserved'),
+(27, 1024, 52, '2023-08-19', '2023-09-12', 'Reserved');
 
 -- --------------------------------------------------------
 
@@ -206,7 +223,12 @@ INSERT INTO `reviews` (`reviewID`, `customerID`, `orderID`, `reviewRating`, `rev
 (7, 1007, 7, 5, 'Amazing book, couldn\'t put it down!', '2023-01-07'),
 (8, 1008, 8, 3, 'It was okay, but I\'ve read better.', '2023-01-08'),
 (9, 1009, 9, 4, 'Really liked it, but the start was a bit slow.', '2023-01-09'),
-(10, 1010, 10, 5, 'One of the best books I\'ve read this year!', '2023-01-10');
+(10, 1010, 10, 5, 'One of the best books I\'ve read this year!', '2023-01-10'),
+(11, 1022, 22, 4, 'i enjoyed reading it', '2023-08-17'),
+(12, 1022, 21, 1, 'i hated the book', '2023-08-17'),
+(13, 1005, 24, 6, 'it was great', '2023-08-18'),
+(14, 1004, 9, 4, 'it was horrible', '2023-08-18'),
+(15, 1024, 27, 4, 'It was a great read! I enjoyed it very much.', '2023-08-19');
 
 --
 -- Indexes for dumped tables
